@@ -19,7 +19,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "migrate": "node_modules/sequelize-cli/lib/sequelize db:migrate"
   },
   "keywords": [],
   "author": "",
